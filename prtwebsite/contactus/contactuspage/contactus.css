@@ -1,0 +1,121 @@
+#ContactUsBanner {
+  height: 200px;
+  background-color: rgba(16, 97, 122, 0.75);
+  display: flex;
+  align-items: center;
+}
+#PRTBannerLogo {
+  height: 180px;
+  width: 180px;
+  margin-top: 10px;
+  object-fit: contain;
+  font-weight: normal;
+}
+#ContactUsBannerHeader {
+  display: flex;
+  color: white;
+  font-family: Impact;
+  letter-spacing: 2px;
+  margin-left: 39.5%;
+  font-size: 500%;
+}
+#SchoolBannerLogo, #SchoolBannerLogoLink {
+  width: 180px;
+  height: 180px;
+  float: right;
+  display: flex;
+  margin-left: 29%;
+  margin-right: 10px;
+}
+#FirstBannerLogo {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+.AnimatedMenu {
+  background-color: rgb(84, 139, 126);
+  margin-top: 0px;
+  height: 10px;
+  overflow: hidden;
+  transition: height 0.25s ease;
+  text-align: center;
+  cursor: pointer;
+}
+.AnimatedMenu:hover {
+  height: 800px;
+}
+.Option {
+  text-wrap: nowrap;
+  font-family: Impact;
+  color: white;
+  font-size: 400%;
+}
+.Option:hover {
+  color: rgba(16, 97, 122, 0.75);
+}
+#OptionAboutUs {
+  margin-top: 0px;
+  padding-top: 10px;
+}
+#ContactUsBody {
+  margin: 0px;
+}
+.OptionLink {
+  text-decoration: none;
+}
+.HTML {
+  background-color: #1f6b82;
+}
+#WhatsappLogoImage {
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
+} 
+.WhatsappInformation {
+  align-items: center;
+  display: flex;
+}
+.ContactUsInformation {
+  font-family: Impact;
+}
+.ContactUsName {
+  color: white;
+}
+.Link {
+  color: white;
+  text-decoration: none;
+}
+.Image {
+  width: 180px;
+  height: 180px;
+}
+.InstagramInformation {
+  display: flex;
+  align-items: center;
+}
+#InstagramContactName {
+  color: white;
+}
+.InstagramContactName {
+  margin-left: 20px;
+}
+.Option {
+  text-decoration: none;
+}
+#GmailLogoImage {
+  height: 150px;
+  margin-top: 15px;
+}
+.GmailInformation {
+  display: flex;
+  align-items: center;
+}
+#GmailContactName {
+  margin-left: 10px;
+  color: white;
+}
+.ContactUsInformation {
+  margin-top: 100px;
+}

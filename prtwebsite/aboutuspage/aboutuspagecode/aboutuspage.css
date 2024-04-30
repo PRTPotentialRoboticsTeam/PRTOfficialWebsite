@@ -1,0 +1,90 @@
+#AboutUsBanner {
+  height: 200px;
+  background-color: rgba(16, 97, 122, 0.75);
+  display: flex;
+  align-items: center;
+}
+#PRTBannerLogo {
+  height: 180px;
+  width: 180px;
+  margin-top: 10px;
+  object-fit: contain;
+  font-weight: normal;
+}
+#AboutUsBannerHeader {
+  display: flex;
+  color: white;
+  font-family: Impact;
+  letter-spacing: 2px;
+  margin-left: 39.5%;
+  font-size: 300%;
+}
+#SchoolBannerLogo, #SchoolBannerLogoLink {
+  width: 180px;
+  height: 180px;
+  float: right;
+  display: flex;
+  margin-left: 29%;
+  margin-right: 10px;
+}
+#FirstBannerLogo {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+.AnimatedMenu {
+  background-color: rgb(84, 139, 126);
+  margin-top: 0px;
+  height: 7px;
+  overflow: hidden;
+  transition: height 0.25s ease;
+  text-align: center;
+}
+.AnimatedMenu:hover {
+  height: 800px;
+  cursor: pointer;
+}
+.Option {
+  text-wrap: nowrap;
+  font-family: Impact;
+  color: white;
+  font-size: 400%;
+}
+.Option:hover {
+  color: rgba(16, 97, 122, 0.75);
+}
+#OptionAboutUs {
+  margin-top: 0px;
+  padding-top: 10px;
+}
+#AboutUsBody {
+  margin: 0px;
+}
+.Description {
+  background-color: rgba(16, 97, 122, 0.75);
+  font-family: Impact;
+  color: white;
+  margin: 0px;
+  height: 200px;
+}
+.DescriptionText {
+  margin: 0px;
+  font-size: 250%;
+  padding-left: 20px;
+}
+#AboutUsImage {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+  border: none;
+}
+#AboutUsImage {
+  height: 620px;
+  width: 100%;
+  background-color: rgb(84, 139, 126);
+}
+.OptionLink {
+  text-decoration: none;
+}
